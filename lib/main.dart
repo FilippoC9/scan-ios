@@ -40,7 +40,7 @@ class _AccessiPageState extends State<AccessiPage> {
       error = null;
     });
     try {
-      final uri = Uri.parse('http://192.168.1.200:5000/utenti?numero=$numero');
+      final uri = Uri.parse('http://192.168.1.102:5000/utenti?numero=$numero');
       final response = await http.get(uri);
       if (response.statusCode == 200) {
         final List<dynamic> data = jsonDecode(response.body);
