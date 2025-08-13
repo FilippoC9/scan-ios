@@ -30,17 +30,20 @@ class ServicesPage extends StatefulWidget {
 
 class _ServicesPageState extends State<ServicesPage> {
   final Map<String, Map<String, int>> services = {
-    'Mail': {
+    'ᴍᴀɪʟ': {
       'POP3': 110,
       'IMAP': 143,
       'SMTP': 25,
     },
-    'Http': {
+    'ʜᴛᴛᴘ': {
       'HTTP (80)': 80,
       'HTTPS (443)': 443,
     },
-    'SMB': {
+    'ꜱᴍʙ': {
       'SMB': 445,
+    },
+    'ᴅᴀᴛᴀʙᴀꜱᴇ': {
+      'MYSQL': 3306,
     },
   };
 
